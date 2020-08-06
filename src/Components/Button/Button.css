@@ -1,0 +1,47 @@
+.weaponBtn {
+  width: 150px;
+  height: 75px;
+  display: inline;
+  margin: auto 19px;
+  color: #376e6f;
+  font-weight: bold;
+  box-shadow: 5px 3px 5px #376e6f;
+  box-sizing: border-box;
+  font-size: 25px;
+  border-radius: 50px;
+  background: #fff;
+  border: 3px solid #376e6f;
+}
+
+@media (max-width: 600px) {
+  .ButtonContainer {
+    width: 100%;
+    margin: auto;
+    display: block;
+    font-size: 15px;
+ 
+  }
+  .weaponBtn {
+    display: inline;
+    margin: auto 7px;
+    font-size: 14px;
+    border-radius: 20px;
+    width: 100px;
+    height: 50px;
+  }
+}
+button {
+  width: 200px;
+  height: 50px;
+  display: block;
+  margin: 10px auto;
+  color: #376e6f;
+  font-size: 18px;
+  border-radius: 25px;
+  background: #fff;
+  outline: none;
+}
+
+button:hover {
+  cursor: pointer;
+}

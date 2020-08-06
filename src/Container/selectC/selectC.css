@@ -1,0 +1,26 @@
+.gameModeContainer {
+  font-size: 31px;
+  color: #376e6f;
+  font-weight: bold;
+}
+
+#mySelect {
+  margin: 0px 0px 0px 2%;
+  color: #fff;
+  background-color: #376e6f;
+  padding: 1% 3% 1% 7%;
+  box-shadow: 5px 2px 3px #376e6f;
+  box-sizing: border-box;
+  border: 2px solid #376e6f;
+  border-radius: 5%;
+  text-align: center;
+  font-size: 22px;
+}
+@media (max-width: 500px) {
+  .gameModeContainer {
+    font-size: 12px;
+  }
+  #mySelect {
+    font-size: 13px;
+  }
+}

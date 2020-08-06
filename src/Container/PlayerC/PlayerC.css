@@ -1,0 +1,12 @@
+.playerWrapper {
+  width: 720px;
+  margin: auto;
+  font-size: 23px;
+}
+@media (max-width: 719px) {
+  .playerWrapper {
+    width: 100%;
+    margin: auto;
+    font-size: 15px;
+  }
+}
